@@ -99,23 +99,6 @@
                 It says gullible.
             </details>
 
-            <button onclick="showContent()">
-                Press me for meme!
-            </button>
-
-            <template>
-                <h2>Meme!</h2>
-                <img src="https://i.pinimg.com/originals/78/8f/27/788f27edb761cb3e6af9422ece19fcc4.jpg" width="214" height="204">
-            </template>
-              
-            <script>
-              function showContent() {
-                var temp = document.getElementsByTagName("template")[0];
-                var clon = temp.content.cloneNode(true);
-                document.body.appendChild(clon);
-              }
-            </script>
-
             <hr>
 
             <section>
@@ -265,6 +248,24 @@
                     width="214"
                     height="214">>
             </picture>
+
+
+            <button onclick="showContent()">
+                Press me for meme!
+            </button>
+
+            <template>
+                <h2>Meme!</h2>
+                <img src="https://i.pinimg.com/originals/78/8f/27/788f27edb761cb3e6af9422ece19fcc4.jpg" width="214" height="204">
+            </template>
+              
+            <script>
+              function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+              }
+            </script>
 
         </main>
 
