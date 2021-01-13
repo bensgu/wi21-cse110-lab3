@@ -130,6 +130,8 @@
                 </optgroup>
             </select>
 
+            <hr>
+
             <form>
                 <fieldset>
                   <legend>Choose a cat breed</legend>
@@ -145,6 +147,7 @@
                 </fieldset>
               </form>
 
+            <hr>
             
             <label for="story">Type anything:</label>
 
@@ -152,10 +155,12 @@
                     rows="5" cols="33">
             </textarea>
 
-            <label for="colour">Choose your favourite colour of the rainbow:</label>
-            <input list="colour" id="colour" name="colour" />
+            <hr>
 
-            <datalist id="colour">
+            <label for="colour">Choose your favourite colour of the rainbow:</label>
+            <input list="colours" id="colour" name="colour" />
+
+            <datalist id="colours">
                 <option value="Blue">
                 <option value="Green">
                 <option value="Yellow">
@@ -163,22 +168,32 @@
                 <option value="Red">
             </datalist>
 
+            <hr>
+
             <label for="more-colour">Choose your favourite colour in general:</label>
             <input type="color" name="more-colour" id="more-colour" required>
+
+            <hr>
 
             <label for="date1">Enter any date:</label>
             <input type="date" name="date1" id="date1" required>
 
+            <hr>
+
             <label for="number1">Enter any number:</label>
             <input type="number" name="number1" id="number1" required>
+
+            <hr>
 
             <label for="time1">Enter any time:</label>
             <input type="time" name="time1" id="time1" required>
 
+            <hr>
+
             <label for="passw">Enter an encrypted password:</label>
             <input type="password" name="passw" id="passw" required>
 
-
+            <hr>
 
             <form action="" method="get" class="form-example">
                 <label for="name">Enter your name: </label>
