@@ -99,9 +99,22 @@
                 It says gullible.
             </details>
 
-            <button type="button">
-                Press me!
+            <button onclick="showContent()">
+                Press me for meme!
             </button>
+
+            <template>
+                <h2>Meme!</h2>
+                <img src="https://i.pinimg.com/originals/78/8f/27/788f27edb761cb3e6af9422ece19fcc4.jpg" width="214" height="204">
+            </template>
+              
+            <script>
+              function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+              }
+            </script>
 
             <hr>
 
@@ -239,14 +252,18 @@
 
 
             <figure>
-                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/02215fe1-c534-4c49-a6a8-f4806b53396f/d6hruu5-7624ad66-8e9b-46ba-95d2-70fbcaab0619.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDIyMTVmZTEtYzUzNC00YzQ5LWE2YTgtZjQ4MDZiNTMzOTZmXC9kNmhydXU1LTc2MjRhZDY2LThlOWItNDZiYS05NWQyLTcwZmJjYWFiMDYxOS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.I9imb6oJTxcsSTsAQ74SDS05zMloX5GlVXrOxvonDFs">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/02215fe1-c534-4c49-a6a8-f4806b53396f/d6hruu5-7624ad66-8e9b-46ba-95d2-70fbcaab0619.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDIyMTVmZTEtYzUzNC00YzQ5LWE2YTgtZjQ4MDZiNTMzOTZmXC9kNmhydXU1LTc2MjRhZDY2LThlOWItNDZiYS05NWQyLTcwZmJjYWFiMDYxOS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.I9imb6oJTxcsSTsAQ74SDS05zMloX5GlVXrOxvonDFs"
+                    width="214"
+                    height="214">
                 <figcaption>Missing this from last year.</figcaption>
             </figure>
 
             <picture>
                 <source srcset="https://cdn3.movieweb.com/i/article/mSv9XmO6EQbtijy72VJ4BMEzrbveks/1200:100/The-Mandalorian-Blue-Cookies-Recipe-Grogu-Baby-Yoda.jpg"
                 media="(min-width: 800px)">
-                <img src="https://cdn3.movieweb.com/i/article/mSv9XmO6EQbtijy72VJ4BMEzrbveks/1200:100/The-Mandalorian-Blue-Cookies-Recipe-Grogu-Baby-Yoda.jpg" alt="">
+                <img src="https://cdn3.movieweb.com/i/article/mSv9XmO6EQbtijy72VJ4BMEzrbveks/1200:100/The-Mandalorian-Blue-Cookies-Recipe-Grogu-Baby-Yoda.jpg" alt=""
+                    width="214"
+                    height="214">>
             </picture>
 
         </main>
