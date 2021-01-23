@@ -17,7 +17,7 @@
   }
 
   li {
-    color: grey;
+    color: #888;
   }
 
   a[target=highlight] {
@@ -27,36 +27,42 @@
   /* change colour of first element */
   p i:first-child {
     color: blue;
+    font-size: 0.2in;
   } 
 
   h1, h2 {
-      background-color: honeydew;
+      background-color: hsl(120, 100%, 97%);
   }
 
   div p {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
+    font-size: 2rem;
   }
 
   div > p {
-    background-color: darkcyan;
+    background-color: hsla(180, 100%, 27%, 0.5);
+    font-size: 0.5em;
   }
 
   div ~ p {
-    background-color: lightblue;
+    background-color: #add8e6;
+    font-size: 2ch;
   }
 
   div + p {
-    background-color: lightgreen;
+    background-color: rgb(144, 238, 144);
+    font-size: 16px
   }
 
   p.right {
       text-align: right;
+      font-size: 1pt;
   }
 
   p.one {
     border-style: solid;
     border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
-    border-color: lightgreen;
+    border-color: hsl(120, 73%, 75%);
     border-radius: 5px;
   }
 
