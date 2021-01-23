@@ -28,6 +28,7 @@
   p i:first-child {
     color: blue;
     font-size: 0.2in;
+    text-decoration: underline;
   } 
 
   h1, h2 {
