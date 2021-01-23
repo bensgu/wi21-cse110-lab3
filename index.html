@@ -8,11 +8,6 @@
             body {
               background-color: linen;
             }
-
-            h1 {
-              color: maroon;
-              margin-left: 40px;
-            }
        </style>
     </head>
 
@@ -30,7 +25,7 @@
             <header>
                 <h1 style="color:blue;text-align:center;">Welcome!</h1>
             </header>
-                <p>This is my page</p>
+                <p class="center">This is my page</p>
             
 
             <section>
@@ -40,16 +35,23 @@
                     <p>This is an aside BTW.</p>
                 </aside>
 
-                <p>Some random guy living in the Bay Area and missing pre-covid times!</p>
-                <p>My favourite line of code is <code>System.out.println()</code>!</p>
+                <p id="para1">Some random guy living in the Bay Area and missing pre-covid times!</p>
+                <p>My <i>favourite</i> line of code is <code>System.out.println()</code>!</p>
 
             </section>
             
             <hr>
 
-            <div>
-                <p>This line is utilizing div!</p>
-            </div>
+            <section>
+                <div>
+                    <p>This line is utilizing div!</p>
+                    <section><p>It's pretty cool.</p></section>
+                </div>
+
+                <p class="right">These extra lines are being used to demonstrate the power of css!</p>
+                <p>Very nargly.</p>
+
+            </section>
 
             <p><span>This line is utilizing span!</span></p>
 
@@ -62,7 +64,7 @@
 
             <p>These lines <br> are broken apart <br> yet they appear <br> together in html. <br> - a short poem</p>
 
-            <p>Here is where you can find all the <a href="https://google.com">answers to the universe</a></p>
+            <p>Here is where you can find all the <a href="https://google.com" target="hightlight">answers to the universe</a></p>
 
             <iframe id="Google-Inline-Frame"
                 title="Google Inline Frame"

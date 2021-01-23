@@ -1,1 +1,58 @@
+    
+    
+    
+    
+  .center {
+    text-align: center;
+    color: red;
+  }
+  
+  #para1 {
+    color: green;
+  }
+  
+  * {
+    text-align: justify;
+    color: blue;
+  }
 
+  li {
+    color: grey;
+  }
+
+  a[target=highlight] {
+    background-color: yellow;
+  }
+
+  /* change colour of first element */
+  p i:first-child {
+    color: blue;
+  } 
+
+  h1, h2 {
+      background-color: honeydew;
+  }
+
+  div p {
+    background-color: grey;
+  }
+
+  div > p {
+    background-color: darkcyan;
+  }
+
+  div ~ p {
+    background-color: lightblue;
+  }
+
+  div + p {
+    background-color: lightgreen;
+  }
+
+  p.right {
+      text-align: right;
+  }
+
+
+
+  
